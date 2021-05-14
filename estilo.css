@@ -1,0 +1,122 @@
+/*Generales*/
+h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: Muthiara -Demo Version-;
+}
+h3{
+	font-family: Please write me a song;
+	font-size: 40px;
+}
+body{
+	background-image: url(img/fondo.jpg);
+	background-size: cover;
+}
+.ind{
+	font-family: Please write me a song;
+	font-size: 40px;
+	text-decoration:none;
+	margin:2px 2px;
+	display:inline-block;
+	background: #ffcccc;
+	color:#21094e;
+	padding: 14px 14px;
+	box-shadow: 0px 4px 0px #ffbbcc;
+}
+.ind:hover {
+	box-shadow: 0px 6px 0px #b34180;
+	color: #21094e;
+	background:#f25287;
+	font-weight: bold;
+}
+.ind:active {
+	box-shadow:none;
+}
+/*Día de las madres*/
+#imagenes{
+	height: 50%;
+	width: 45%;
+	float: left;
+}
+#imagenes img{
+	height: auto;
+	width: 500px;
+	margin: 10px;
+}
+#texto{
+	width: 45%;
+	margin: 10px;
+	padding: 10px;
+	float: right;
+	font-size: 30px;
+}
+/*Sugerencias de Páginas*/
+#familia{
+	width: 55%;
+	height: auto;
+	background-color: #ffcccc;
+	padding-bottom: 5px;
+	padding: 15px;
+	margin: 5px;
+	border-radius: 3em;
+	float: left;
+}
+#familia:hover, #pag:hover{
+	background-color: #ffbbcc;
+}
+li{
+	font-size: 30px;
+	font-family: Arial Black;
+	margin: 30px;
+}
+li img{
+	height: auto;
+	width: 150px;
+	margin: 20px;
+}
+#pag{
+	width: 35%;
+	background-color: #ffcccc;
+	padding: 20px;
+	margin: 5px;
+	border-radius: 3em;
+	float: right;
+	text-align: center;
+	font-size: 25px;
+}
+.cuadros:hover{
+	background-color: #ffeecc;
+	border-radius: 1em;
+	padding: 1px;
+}
+#youtube{
+	width: 100px;
+}
+.links{
+	background-color: #ffc2b4;
+	border-radius: 10em;
+	padding: 20px;
+	text-decoration: none;
+}
+/*Encabezado*/
+#cetis62{
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	height: 100px;	
+}
+#desapejes{
+	position: absolute;
+	right:5px;
+	top:5px;
+	height: 100px;	
+}
+#dato{
+	margin: -2px;
+} 
+#nao{
+	position: absolute;
+	right:300px;
+	top: 5px;
+	height: 100px;
+}
